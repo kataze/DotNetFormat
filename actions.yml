@@ -1,0 +1,11 @@
+name: 'dotnet-format'
+author: 'Kataze T Skunk
+description: 'Runs dotnet-format against PRs'
+runs: 
+  steps: 
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Lint
+      using: 'docker'
+      image: 'Dockerfile'
