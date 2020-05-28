@@ -22,4 +22,4 @@ ENV PATH="/root/.dotnet/tools:${PATH}"
 # Entrypoint
 WORKDIR /app/code
 #CMD bash
-ENTRYPOINT ["/root/.dotnet/tools/dotnet-format", "--check", "--verbosity", "diag"]
+ENTRYPOINT ["/root/.dotnet/tools/dotnet-format", "--check", "--verbosity", "diag", "--workspace", "UdonJeopardy.sln"]
