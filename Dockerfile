@@ -21,4 +21,5 @@ ENV PATH="/root/.dotnet/tools:${PATH}"
 
 # Entrypoint
 WORKDIR /app/code
-ENTRYPOINT ["dotnet format --check"]
+#CMD bash
+ENTRYPOINT ["/root/.dotnet/tools/dotnet-format", "--check"]
