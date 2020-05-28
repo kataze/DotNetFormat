@@ -17,5 +17,8 @@ COPY format/ format/
 WORKDIR /source/format
 RUN dotnet tool install --add-source ./artifacts/packages/Debug/Shipping -g dotnet-format --version 4.0.0-dev
 ENV PATH="/root/.dotnet/tools:${PATH}"
+
+
 # Entrypoint
-CMD bash
+WORKDIR /app/code
+ENTRYPOINT ["dotnet format --check"]

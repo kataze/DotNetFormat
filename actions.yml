@@ -1,11 +1,9 @@
 name: 'dotnet-format'
-author: 'Kataze T Skunk
+author: 'Kataze T Skunk'
 description: 'Runs dotnet-format against PRs'
+branding:
+  icon: check
+  color: green
 runs: 
-  steps: 
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Lint
-      using: 'docker'
-      image: 'Dockerfile'
+  using: 'docker'
+  image: 'Dockerfile'
