@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/christianmcnamara/.nuget/packages/microsoft.dotnet.arcade.sdk/5.0.0-beta.20201.2/tools/Tools.proj": {}
+  },
+  "projects": {
+    "/Users/christianmcnamara/.nuget/packages/microsoft.dotnet.arcade.sdk/5.0.0-beta.20201.2/tools/Tools.proj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/christianmcnamara/.nuget/packages/microsoft.dotnet.arcade.sdk/5.0.0-beta.20201.2/tools/Tools.proj",
+        "projectName": "Tools",
+        "projectPath": "/Users/christianmcnamara/.nuget/packages/microsoft.dotnet.arcade.sdk/5.0.0-beta.20201.2/tools/Tools.proj",
+        "packagesPath": "/Users/christianmcnamara/.nuget/packages",
+        "outputPath": "/Users/christianmcnamara/dotnetformat/format/artifacts/toolset/Common",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/christianmcnamara/dotnetformat/format/NuGet.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn-analyzers/api/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "MicroBuild.Core": {
+              "target": "Package",
+              "version": "[0.2.0, )",
+              "autoReferenced": true
+            },
+            "MicroBuild.Core.Sentinel": {
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.DotNet.SignTool": {
+              "target": "Package",
+              "version": "[5.0.0-beta.20201.2, )",
+              "autoReferenced": true
+            },
+            "Microsoft.SymbolUploader.Build.Task": {
+              "target": "Package",
+              "version": "[1.0.0-beta-65130-01, )",
+              "autoReferenced": true
+            },
+            "sn": {
+              "target": "Package",
+              "version": "[1.0.0, )",
+              "autoReferenced": true
+            },
+            "vswhere": {
+              "target": "Package",
+              "version": "[2.6.7, )",
+              "autoReferenced": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

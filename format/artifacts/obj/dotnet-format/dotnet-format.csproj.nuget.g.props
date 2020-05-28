@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/christianmcnamara/.nuget/packages</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/christianmcnamara/.nuget/packages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)/xlifftasks/1.0.0-beta.20181.1/build/XliffTasks.props" Condition="Exists('$(NuGetPackageRoot)/xlifftasks/1.0.0-beta.20181.1/build/XliffTasks.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.sourcelink.common/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.Common.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.sourcelink.common/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.Common.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.build.tasks.git/1.0.0-beta2-19554-01/build/Microsoft.Build.Tasks.Git.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.build.tasks.git/1.0.0-beta2-19554-01/build/Microsoft.Build.Tasks.Git.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.sourcelink.github/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.GitHub.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.sourcelink.github/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.GitHub.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.sourcelink.azurerepos.git/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.AzureRepos.Git.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.sourcelink.azurerepos.git/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.AzureRepos.Git.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.netcore.app/2.1.0/build/netcoreapp2.1/Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.netcore.app/2.1.0/build/netcoreapp2.1/Microsoft.NETCore.App.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.build.locator/1.2.6/build/Microsoft.Build.Locator.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.build.locator/1.2.6/build/Microsoft.Build.Locator.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgXliffTasks Condition=" '$(PkgXliffTasks)' == '' ">/Users/christianmcnamara/.nuget/packages/xlifftasks/1.0.0-beta.20181.1</PkgXliffTasks>
+    <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.sourcelink.common/1.0.0-beta2-19554-01</PkgMicrosoft_SourceLink_Common>
+    <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.build.tasks.git/1.0.0-beta2-19554-01</PkgMicrosoft_Build_Tasks_Git>
+    <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.sourcelink.github/1.0.0-beta2-19554-01</PkgMicrosoft_SourceLink_GitHub>
+    <PkgMicrosoft_SourceLink_AzureRepos_Git Condition=" '$(PkgMicrosoft_SourceLink_AzureRepos_Git)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.sourcelink.azurerepos.git/1.0.0-beta2-19554-01</PkgMicrosoft_SourceLink_AzureRepos_Git>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.codeanalysis.analyzers/3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+  </PropertyGroup>
+</Project>

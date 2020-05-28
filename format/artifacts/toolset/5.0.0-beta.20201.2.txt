@@ -1,0 +1,1 @@
+/Users/christianmcnamara/.nuget/packages/microsoft.dotnet.arcade.sdk/5.0.0-beta.20201.2/tools/Build.proj

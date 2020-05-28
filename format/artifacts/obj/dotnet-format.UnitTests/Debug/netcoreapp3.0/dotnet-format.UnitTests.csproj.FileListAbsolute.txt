@@ -1,0 +1,15 @@
+/Users/christianmcnamara/dotnetformat/format/artifacts/bin/dotnet-format.UnitTests/Debug/netcoreapp3.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/christianmcnamara/dotnetformat/format/artifacts/bin/dotnet-format.UnitTests/Debug/netcoreapp3.0/xunit.runner.reporters.netcoreapp10.dll
+/Users/christianmcnamara/dotnetformat/format/artifacts/bin/dotnet-format.UnitTests/Debug/netcoreapp3.0/xunit.runner.utility.netcoreapp10.dll
+/Users/christianmcnamara/dotnetformat/format/artifacts/bin/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.dll.config
+/Users/christianmcnamara/dotnetformat/format/artifacts/bin/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.deps.json
+/Users/christianmcnamara/dotnetformat/format/artifacts/bin/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.runtimeconfig.json
+/Users/christianmcnamara/dotnetformat/format/artifacts/bin/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.runtimeconfig.dev.json
+/Users/christianmcnamara/dotnetformat/format/artifacts/bin/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.dll
+/Users/christianmcnamara/dotnetformat/format/artifacts/obj/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.csprojAssemblyReference.cache
+/Users/christianmcnamara/dotnetformat/format/artifacts/obj/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.dll.config
+/Users/christianmcnamara/dotnetformat/format/artifacts/obj/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.sourcelink.json
+/Users/christianmcnamara/dotnetformat/format/artifacts/obj/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.AssemblyInfoInputs.cache
+/Users/christianmcnamara/dotnetformat/format/artifacts/obj/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.AssemblyInfo.cs
+/Users/christianmcnamara/dotnetformat/format/artifacts/obj/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.csproj.CopyComplete
+/Users/christianmcnamara/dotnetformat/format/artifacts/obj/dotnet-format.UnitTests/Debug/netcoreapp3.0/dotnet-format.UnitTests.dll

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/christianmcnamara/.nuget/packages</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/christianmcnamara/.nuget/packages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)/microsoft.codecoverage/16.1.1/build/netstandard1.0/Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.codecoverage/16.1.1/build/netstandard1.0/Microsoft.CodeCoverage.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.net.test.sdk/16.1.1/build/netcoreapp1.0/Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.net.test.sdk/16.1.1/build/netcoreapp1.0/Microsoft.NET.Test.Sdk.props')" />
+    <Import Project="$(NuGetPackageRoot)/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.props" Condition="Exists('$(NuGetPackageRoot)/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.props')" />
+    <Import Project="$(NuGetPackageRoot)/xunit.runner.console/2.4.1/build/xunit.runner.console.props" Condition="Exists('$(NuGetPackageRoot)/xunit.runner.console/2.4.1/build/xunit.runner.console.props')" />
+    <Import Project="$(NuGetPackageRoot)/xunit.core/2.4.1/build/xunit.core.props" Condition="Exists('$(NuGetPackageRoot)/xunit.core/2.4.1/build/xunit.core.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.codeanalysis.analyzers/3.0.0/build/Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.codeanalysis.analyzers/3.0.0/build/Microsoft.CodeAnalysis.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.sourcelink.common/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.Common.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.sourcelink.common/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.Common.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.build.tasks.git/1.0.0-beta2-19554-01/build/Microsoft.Build.Tasks.Git.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.build.tasks.git/1.0.0-beta2-19554-01/build/Microsoft.Build.Tasks.Git.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.sourcelink.github/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.GitHub.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.sourcelink.github/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.GitHub.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.sourcelink.azurerepos.git/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.AzureRepos.Git.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.sourcelink.azurerepos.git/1.0.0-beta2-19554-01/build/Microsoft.SourceLink.AzureRepos.Git.props')" />
+    <Import Project="$(NuGetPackageRoot)/microsoft.build.locator/1.2.6/build/Microsoft.Build.Locator.props" Condition="Exists('$(NuGetPackageRoot)/microsoft.build.locator/1.2.6/build/Microsoft.Build.Locator.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgxunit_runner_console Condition=" '$(Pkgxunit_runner_console)' == '' ">/Users/christianmcnamara/.nuget/packages/xunit.runner.console/2.4.1</Pkgxunit_runner_console>
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">/Users/christianmcnamara/.nuget/packages/xunit.analyzers/0.10.0</Pkgxunit_analyzers>
+    <PkgMicrosoft_VisualStudio_Validation Condition=" '$(PkgMicrosoft_VisualStudio_Validation)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.visualstudio.validation/15.0.82</PkgMicrosoft_VisualStudio_Validation>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.codeanalysis.analyzers/3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.sourcelink.common/1.0.0-beta2-19554-01</PkgMicrosoft_SourceLink_Common>
+    <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.build.tasks.git/1.0.0-beta2-19554-01</PkgMicrosoft_Build_Tasks_Git>
+    <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.sourcelink.github/1.0.0-beta2-19554-01</PkgMicrosoft_SourceLink_GitHub>
+    <PkgMicrosoft_SourceLink_AzureRepos_Git Condition=" '$(PkgMicrosoft_SourceLink_AzureRepos_Git)' == '' ">/Users/christianmcnamara/.nuget/packages/microsoft.sourcelink.azurerepos.git/1.0.0-beta2-19554-01</PkgMicrosoft_SourceLink_AzureRepos_Git>
+  </PropertyGroup>
+</Project>

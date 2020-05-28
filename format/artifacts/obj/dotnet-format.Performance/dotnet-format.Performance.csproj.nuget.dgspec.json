@@ -1,0 +1,270 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/christianmcnamara/dotnetformat/format/perf/dotnet-format.Performance.csproj": {}
+  },
+  "projects": {
+    "/Users/christianmcnamara/dotnetformat/format/perf/dotnet-format.Performance.csproj": {
+      "version": "4.0.0-dev",
+      "restore": {
+        "projectUniqueName": "/Users/christianmcnamara/dotnetformat/format/perf/dotnet-format.Performance.csproj",
+        "projectName": "dotnet-format.Performance",
+        "projectPath": "/Users/christianmcnamara/dotnetformat/format/perf/dotnet-format.Performance.csproj",
+        "packagesPath": "/Users/christianmcnamara/.nuget/packages",
+        "outputPath": "/Users/christianmcnamara/dotnetformat/format/artifacts/obj/dotnet-format.Performance/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/christianmcnamara/dotnetformat/format/NuGet.Config",
+          "/Users/christianmcnamara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn-analyzers/api/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/christianmcnamara/dotnetformat/format/src/dotnet-format.csproj": {
+                "projectPath": "/Users/christianmcnamara/dotnetformat/format/src/dotnet-format.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1701",
+            "NU5105",
+            "NU5125"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.12.0, )"
+            },
+            "BenchmarkDotNet.Annotations": {
+              "target": "Package",
+              "version": "[0.12.0, )"
+            },
+            "BenchmarkDotNet.Diagnostics.Windows": {
+              "target": "Package",
+              "version": "[0.12.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.SourceLink.AzureRepos.Git": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-beta2-19554-01, )",
+              "autoReferenced": true
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-beta2-19554-01, )",
+              "autoReferenced": true
+            },
+            "XliffTasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-beta.20181.1, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Users/christianmcnamara/dotnetformat/format/.dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/christianmcnamara/dotnetformat/format/src/dotnet-format.csproj": {
+      "version": "4.0.0-dev",
+      "restore": {
+        "projectUniqueName": "/Users/christianmcnamara/dotnetformat/format/src/dotnet-format.csproj",
+        "projectName": "dotnet-format",
+        "projectPath": "/Users/christianmcnamara/dotnetformat/format/src/dotnet-format.csproj",
+        "packagesPath": "/Users/christianmcnamara/.nuget/packages",
+        "outputPath": "/Users/christianmcnamara/dotnetformat/format/artifacts/obj/dotnet-format/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/christianmcnamara/dotnetformat/format/NuGet.Config",
+          "/Users/christianmcnamara/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn-analyzers/api/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "noWarn": [
+            "NU1701",
+            "NU5105",
+            "NU5125"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Build": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[15.3.409, )"
+            },
+            "Microsoft.Build.Framework": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[15.3.409, )"
+            },
+            "Microsoft.Build.Locator": {
+              "target": "Package",
+              "version": "[1.2.6, )"
+            },
+            "Microsoft.CodeAnalysis": {
+              "target": "Package",
+              "version": "[3.7.0-3.20271.4, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.7.0-3.20271.4, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[3.7.0-3.20271.4, )"
+            },
+            "Microsoft.CodeAnalysis.VisualBasic": {
+              "target": "Package",
+              "version": "[3.7.0-3.20271.4, )"
+            },
+            "Microsoft.CodeAnalysis.VisualBasic.Workspaces": {
+              "target": "Package",
+              "version": "[3.7.0-3.20271.4, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.Common": {
+              "target": "Package",
+              "version": "[3.7.0-3.20271.4, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.MSBuild": {
+              "target": "Package",
+              "version": "[3.7.0-3.20271.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.FileSystemGlobbing": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.SourceLink.AzureRepos.Git": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-beta2-19554-01, )",
+              "autoReferenced": true
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-beta2-19554-01, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.CommandLine": {
+              "target": "Package",
+              "version": "[2.0.0-beta1.20104.2, )"
+            },
+            "System.CommandLine.Rendering": {
+              "target": "Package",
+              "version": "[0.3.0-alpha.20104.2, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "XliffTasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0-beta.20181.1, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/Users/christianmcnamara/dotnetformat/format/.dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "osx-x64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
