@@ -4,11 +4,8 @@ ENV DOTNET_CLI_TELEMETRY_OPTOUT=true
 
 # Set up needed tools
 RUN apt-get update 
-#RUN DEBIAN_FRONTEND="noninteractive" TZ="America/Chicago" apt-get install -y libicu-dev
 RUN apt-get install -y wget
 RUN apt-get install -y apt-transport-https
-RUN apt-get install -y software-properties-common  
-RUN add-apt-repository universe
 RUN wget https://packages.microsoft.com/config/ubuntu/19.10/packages-microsoft-prod.deb
 RUN apt-get install -y ./packages-microsoft-prod.deb
 RUN apt-get update
